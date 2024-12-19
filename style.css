@@ -1,0 +1,104 @@
+body {
+    background-color:lightgrey;
+margin: 0; 
+
+}
+
+#menu {
+background-color: rgb(232, 205, 255);
+width: 250px;
+height: 2200px;
+text-align: center;
+box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.logo { width: 150px;
+    border: 6px double #fff;
+    border-radius: 50%;
+    margin-top: 70px;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+
+}
+
+h1, h2{ font-size: 1.7rem;
+color:#fff;
+font-family: Bookman Old Style, Helvetica, sans-serif ;
+text-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+}
+
+.links{ text-decoration: none;
+    color:#fff;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+    text-shadow:5px 5px 5px rgba(0,0,0,0.5);
+    display: flex;
+    flex-direction: center;
+    padding: 1rem 0 ;
+    transition: all 0.7s ease;
+
+}
+
+.links:hover{ background-color: rgb(209, 160, 252);
+color:#fff;
+font-weight: bold;
+font-size: 1.5 rem;
+}
+
+header{
+    float: left;
+}
+
+.info-01 {
+    background-color: #fff;
+    margin: 1rem 1.5rem 1rem 20rem;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+   
+}
+.info-02, .info-03, .info-04, .info-05, .info-06, .info-07 {
+    background-color: #fff;
+    margin: 1rem 1.5rem 1rem 2rem;
+    border-radius: 15px;
+    padding: 1rem;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5); 
+    width: 250px;
+    height: 200px;
+
+}
+
+.info-08 {
+    background-color: #fff;
+margin: 1rem 1.5rem 1rem 2rem;
+border-radius: 15px;
+padding: 1rem;
+box-shadow: 5px 5px 5px rgba(0,0,0,0.5); 
+width: 250px;
+height: 200px;
+overflow: scroll;
+
+}
+
+#conteudo {display: flex;
+flex-wrap: wrap;
+justify-content: center;}
+
+footer{background-color:rgb(232, 205, 255);
+    color: #fff;
+    font-size: 1.5rem;
+    margin: -5px;
+    clear: both;
+    text-align: center;
+    padding: 0.5rem;
+
+}
+
+h3{ font-size: 1.7rem;
+    text-align: center;
+    font-family:  "Yeseva One", serif;
+    box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+
+}
+
+
+
